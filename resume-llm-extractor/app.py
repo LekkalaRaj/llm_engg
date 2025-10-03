@@ -1,3 +1,5 @@
+# imports
+
 import os
 import json
 import time
@@ -224,6 +226,9 @@ def process_input(user_input: str) -> Dict[str, Any]:
         }
 
 def process_data(user_input):
+    """
+    Transformer function to convert dict into tuples
+    """
     output = process_input(user_input)
     
     # 2. Extract and return values as a tuple
