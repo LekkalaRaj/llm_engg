@@ -1,0 +1,14 @@
+name: resume-llm-extractor
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+    # Core LLM SDK
+    - openai
+    # UI Framework
+    - gradio
+    # For managing API keys securely
+    - python-dotenv
