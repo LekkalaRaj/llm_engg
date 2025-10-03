@@ -25,8 +25,8 @@ The entire application is built using **Python**, the **OpenAI SDK**, and **Grad
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/YourUsername/resume-llm-extractor.git](https://github.com/YourUsername/resume-llm-extractor.git)
-    cd resume-llm-extractor
+    git clone [https://github.com/LekkalaRaj/llm_engg.git](https://github.com/LekkalaRaj/llm_engg.git)
+    cd llm_engg/resume-llm-extractor
     ```
 
 2.  **Create & Activate Environment:**
