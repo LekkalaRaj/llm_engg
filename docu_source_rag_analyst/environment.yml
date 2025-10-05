@@ -1,0 +1,23 @@
+name: docu-rag
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+    - fastapi
+    - uvicorn
+    # UI Framework
+    - gradio
+    # For managing API keys securely
+    - python-dotenv
+    # LLM & API
+    - google-genai
+    - google-generativeai
+    - openai
+    
+    # RAG Components
+    - chromadb
+    - pypdf        # For loading PDF documents
+    - numpy        # Often a dependency for RAG/Embedding libraries
