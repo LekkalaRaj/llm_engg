@@ -1,0 +1,17 @@
+name: financial-copilot-rag
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - python-dotenv
+  - pandas
+  - pip:
+    - openai                   # For LLM calls and embeddings (via Gemini endpoint)
+    - gradio                   # For the web interface
+    - yfinance                 # For accessing Indian stock data (e.g., RELIANCE.NS)
+    - plotly                   # For generating interactive charts
+    - requests                 # General utility
+    - typing_extensions
+    - tabulate
