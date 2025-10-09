@@ -1,0 +1,15 @@
+name: story-weaver
+channels:
+  - conda-forge
+dependencies:
+  # Core Python
+  - python=3.10
+  - pip
+  - python-dotenv
+  # Dependencies for Gradio and core utilities
+  - numpy # Common prerequisite for many ML/Gradio packages
+  
+  # Pip dependencies
+  - pip:
+    - gradio>=4.0.0 # Gradio for the Chat Interface UI
+    - openai # SDK used to interface with Gemini/Imagen/TTS endpoints
